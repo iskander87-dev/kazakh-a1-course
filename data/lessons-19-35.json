@@ -255,13 +255,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «___ дүйсенбі» = «Завтра понедельник».",
-        "answers": [
-          "Ертең"
-        ],
         "explanation": "Ответ: Ертең.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "Ертең",
+          "Кеше",
+          "Бүгін"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -321,7 +324,7 @@
         "в субботу"
       ],
       "answer": 2,
-      "explanation": "Он говорит: «Сенбі күні босмын» — В субботу я свободен."
+      "explanation": "Он говорит: «Сенбі күні боспын» — В субботу я свободен."
     },
     "oral": [
       "Назовите по порядку семь дней недели.",
@@ -777,13 +780,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Бүгін ___ қазан» = «Сегодня третье октября».",
-        "answers": [
-          "үшінші"
-        ],
         "explanation": "Ответ: үшінші.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "үшінші",
+          "үш",
+          "отыз"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -799,13 +805,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Менің туған күнім ___» = «Мой день рождения в августе».",
-        "answers": [
-          "тамызда"
-        ],
         "explanation": "Ответ: тамызда.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "тамызда",
+          "тамызға",
+          "тамыздан"
+        ],
+        "answer": 0
       }
     ],
     "listening": {
@@ -1233,13 +1242,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
-        "prompt": "Заполните: «Мен ___ болып жұмыс істеймін».",
-        "answers": [
-          "инженер"
-        ],
+        "type": "choice",
+        "prompt": "Выберите профессию из предложенных вариантов: «Мен ___ болып жұмыс істеймін».",
         "explanation": "Ответ: инженер.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "инженер",
+          "пәтер",
+          "жұма"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -1367,7 +1379,7 @@
       },
       {
         "type": "textWithChoicesTask",
-        "taskText": "<p>Заполните: «Мен §-§ болып жұмыс істеймін».</p>",
+        "taskText": "<p>Выберите профессию из предложенных вариантов: «Мен §-§ болып жұмыс істеймін».</p>",
         "choices": [
           [
             "инженер",
@@ -1682,13 +1694,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Мен қазақша ___» = «Я говорю по-казахски».",
-        "answers": [
-          "сөйлеймін"
-        ],
         "explanation": "Ответ: сөйлеймін.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "сөйлеймін",
+          "тыңдаймын",
+          "оқимын"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -2135,13 +2150,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Ол үйде ___?»",
-        "answers": [
-          "ме"
-        ],
         "explanation": "Ответ: ме.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "ме",
+          "ма",
+          "па"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -2206,13 +2224,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Бұл автобус ___?»",
-        "answers": [
-          "па"
-        ],
         "explanation": "Ответ: па.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "па",
+          "пе",
+          "ме"
+        ],
+        "answer": 0
       }
     ],
     "listening": {
@@ -2624,13 +2645,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
-        "prompt": "Заполните: «Мен ___ тыңдаймын».",
-        "answers": [
-          "музыканы"
-        ],
+        "type": "choice",
+        "prompt": "Заполните пропуск для смысла «Я слушаю музыку»: «Мен ___ тыңдаймын».",
         "explanation": "Ответ: музыканы.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "музыканы",
+          "үйге",
+          "дәріхана"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -2647,7 +2671,7 @@
       },
       {
         "type": "choice",
-        "prompt": "Соедините действие и типичный объект.\nоқимын",
+        "prompt": "Какой объект подходит для смысла «читаю книгу»?\nоқимын + ___",
         "options": [
           "адам",
           "кітап",
@@ -2655,12 +2679,12 @@
           "нан"
         ],
         "answer": 1,
-        "explanation": "оқимын — кітап",
+        "explanation": "Для смысла «читаю книгу» подходит кітап.",
         "origin": "StudyMe"
       },
       {
         "type": "choice",
-        "prompt": "Соедините действие и типичный объект.\nтыңдаймын",
+        "prompt": "Какой объект подходит для смысла «слушаю музыку»?\nтыңдаймын + ___",
         "options": [
           "музыка",
           "нан",
@@ -2668,12 +2692,12 @@
           "кітап"
         ],
         "answer": 0,
-        "explanation": "тыңдаймын — музыка",
+        "explanation": "Для смысла «слушаю музыку» подходит музыка.",
         "origin": "StudyMe"
       },
       {
         "type": "choice",
-        "prompt": "Соедините действие и типичный объект.\nсатып аламын",
+        "prompt": "Какой объект подходит для смысла «покупаю хлеб»?\nсатып аламын + ___",
         "options": [
           "адам",
           "кітап",
@@ -2681,12 +2705,12 @@
           "нан"
         ],
         "answer": 3,
-        "explanation": "сатып аламын — нан",
+        "explanation": "Для смысла «покупаю хлеб» подходит нан.",
         "origin": "StudyMe"
       },
       {
         "type": "choice",
-        "prompt": "Соедините действие и типичный объект.\nкөремін",
+        "prompt": "Какой объект подходит для смысла «вижу человека»?\nкөремін + ___",
         "options": [
           "музыка",
           "нан",
@@ -2694,7 +2718,7 @@
           "кітап"
         ],
         "answer": 2,
-        "explanation": "көремін — адам",
+        "explanation": "Для смысла «вижу человека» подходит адам.",
         "origin": "StudyMe"
       }
     ],
@@ -2770,7 +2794,7 @@
       },
       {
         "type": "textWithChoicesTask",
-        "taskText": "<p>Заполните: «Мен §-§ тыңдаймын».</p>",
+        "taskText": "<p>Заполните пропуск для смысла «Я слушаю музыку»: «Мен §-§ тыңдаймын».</p>",
         "choices": [
           [
             "музыканы",
@@ -2799,22 +2823,22 @@
       },
       {
         "type": "dragAndDropTask",
-        "taskText": "<p>Соедините действие и типичный объект.</p>",
+        "taskText": "<p>Соедините действие и объект для заданного русского смысла.</p>",
         "pairs": [
           {
-            "source": "оқимын",
+            "source": "оқимын (читаю книгу)",
             "target": "кітап"
           },
           {
-            "source": "тыңдаймын",
+            "source": "тыңдаймын (слушаю музыку)",
             "target": "музыка"
           },
           {
-            "source": "сатып аламын",
+            "source": "сатып аламын (покупаю хлеб)",
             "target": "нан"
           },
           {
-            "source": "көремін",
+            "source": "көремін (вижу человека)",
             "target": "адам"
           }
         ]
@@ -3079,13 +3103,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Мен ___ көремін» = «Я вижу человека».",
-        "answers": [
-          "адамды"
-        ],
         "explanation": "Ответ: адамды.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "адамды",
+          "адамға",
+          "адаммен"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -3166,13 +3193,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Мен досым___ кездесемін».",
-        "answers": [
-          "мен"
-        ],
         "explanation": "Ответ: мен.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "мен",
+          "ды",
+          "ге"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -3613,13 +3643,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Мен ___ барамын» = «Я иду домой».",
-        "answers": [
-          "үйге"
-        ],
         "explanation": "Ответ: үйге.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "үйге",
+          "үйден",
+          "үйде"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -4062,13 +4095,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Сіз ___ келдіңіз?» = «Откуда вы приехали?»",
-        "answers": [
-          "қайдан"
-        ],
         "explanation": "Ответ: қайдан.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "қайдан",
+          "қашан",
+          "неше"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -4550,13 +4586,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Мен жұмыс ___» = «Я не работаю».",
-        "answers": [
-          "істемеймін"
-        ],
         "explanation": "Ответ: істемеймін.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "істемеймін",
+          "істеймін",
+          "барамын"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -5014,13 +5053,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «___ кітабың» = «твоя книга».",
-        "answers": [
-          "сенің"
-        ],
         "explanation": "Ответ: сенің.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "сенің",
+          "менің",
+          "сіздің"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -5451,13 +5493,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Мен кітап ___» = «Я читал книгу».",
-        "answers": [
-          "оқыдым"
-        ],
         "explanation": "Ответ: оқыдым.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "оқыдым",
+          "оқимын",
+          "жазамын"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -5880,13 +5925,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Ертең ___ барамын» = «Завтра пойду на работу».",
-        "answers": [
-          "жұмысқа"
-        ],
         "explanation": "Ответ: жұмысқа.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "жұмысқа",
+          "үйден",
+          "кеше"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -6329,13 +6377,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Маған ___ керек» = «Мне нужно лекарство».",
-        "answers": [
-          "дәрі"
-        ],
         "explanation": "Ответ: дәрі.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "дәрі",
+          "дүкен",
+          "аялдама"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -6778,13 +6829,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Сіздің телефон ___ қандай?»",
-        "answers": [
-          "нөміріңіз"
-        ],
         "explanation": "Ответ: нөміріңіз.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "нөміріңіз",
+          "үйіңіз",
+          "жұмысыңыз"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -7231,13 +7285,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «___ билет беріңізші» = «Один билет, пожалуйста».",
-        "answers": [
-          "Бір"
-        ],
         "explanation": "Ответ: Бір.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "Бір",
+          "Екі",
+          "Үш"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
@@ -7700,13 +7757,16 @@
         "origin": "StudyMe"
       },
       {
-        "type": "input",
+        "type": "choice",
         "prompt": "Заполните: «Бөлме ___ тұрады?» = «Сколько стоит номер?»",
-        "answers": [
-          "қанша"
-        ],
         "explanation": "Ответ: қанша.",
-        "origin": "StudyMe"
+        "origin": "StudyMe",
+        "options": [
+          "қанша",
+          "қайда",
+          "кім"
+        ],
+        "answer": 0
       },
       {
         "type": "choice",
