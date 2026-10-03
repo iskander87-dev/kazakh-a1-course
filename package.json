@@ -1,0 +1,6 @@
+{
+  "name": "kazakh-a1-course", "version": "1.0.0", "private": true, "type": "module",
+  "description": "Казахский язык с нуля: 50 модулей A0 → A1 и аудирование A/B/C",
+  "scripts": {"start":"node scripts/serve.mjs", "build":"node scripts/build.mjs", "check":"node scripts/check.mjs"},
+  "engines": {"node": ">=18"}
+}

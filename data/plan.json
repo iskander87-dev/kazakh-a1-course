@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "Алфавит, звуки и гармония гласных",
+    "purpose": "Исправленная фонетическая база",
+    "source": "https://studyme.ai/keft3/"
+  },
+  {
+    "id": 2,
+    "title": "Чтение слогов и первых слов",
+    "purpose": "Переход от букв к чтению",
+    "source": "https://studyme.ai/bszkq/"
+  },
+  {
+    "id": 3,
+    "title": "Приветствия и знакомство",
+    "purpose": "Первый диалог",
+    "source": "https://studyme.ai/cvpjq/"
+  },
+  {
+    "id": 4,
+    "title": "Числа 1–10 и возраст",
+    "purpose": "Базовые числа",
+    "source": "https://studyme.ai/gj2dw/"
+  },
+  {
+    "id": 5,
+    "title": "Числа 11–100 и время",
+    "purpose": "Цены, возраст, часы",
+    "source": "https://studyme.ai/mrfwa/"
+  },
+  {
+    "id": 6,
+    "title": "Покупки и цены",
+    "purpose": "Магазин",
+    "source": "https://studyme.ai/qw9f4/"
+  },
+  {
+    "id": 7,
+    "title": "Повседневные фразы и вопросы",
+    "purpose": "Базовое выживание",
+    "source": "https://studyme.ai/wkb1j/"
+  },
+  {
+    "id": 8,
+    "title": "Я, ты, Вы, он/она",
+    "purpose": "Личные местоимения",
+    "source": "https://studyme.ai/a4tms/"
+  },
+  {
+    "id": 9,
+    "title": "Множественное число + бар/жоқ",
+    "purpose": "Есть/нет, книги, люди",
+    "source": "https://studyme.ai/xm8yd/"
+  },
+  {
+    "id": 10,
+    "title": "Мы, вы, они",
+    "purpose": "Полная система местоимений",
+    "source": "https://studyme.ai/pblyf/"
+  },
+  {
+    "id": 11,
+    "title": "Семья и люди",
+    "purpose": "Семейная лексика",
+    "source": "https://studyme.ai/w8cqr/"
+  },
+  {
+    "id": 12,
+    "title": "Город и ориентирование",
+    "purpose": "Где находится",
+    "source": "https://studyme.ai/8e83h/"
+  },
+  {
+    "id": 13,
+    "title": "Где / куда / откуда",
+    "purpose": "`-да/-де`, `-ға/-ге`, `-дан/-ден`",
+    "source": "https://studyme.ai/gz5qc/"
+  },
+  {
+    "id": 14,
+    "title": "Еда и кафе",
+    "purpose": "Базовая еда",
+    "source": "https://studyme.ai/bwj87/"
+  },
+  {
+    "id": 15,
+    "title": "Время и распорядок дня",
+    "purpose": "Обычный день",
+    "source": "https://studyme.ai/bmujs/"
+  },
+  {
+    "id": 16,
+    "title": "Погода и одежда",
+    "purpose": "Погода",
+    "source": "https://studyme.ai/5ru11/"
+  },
+  {
+    "id": 17,
+    "title": "Дом и комнаты",
+    "purpose": "Жильё",
+    "source": "https://studyme.ai/rqpsf/"
+  },
+  {
+    "id": 18,
+    "title": "Цвета и признаки",
+    "purpose": "Прилагательные",
+    "source": "https://studyme.ai/vbbef/"
+  },
+  {
+    "id": 19,
+    "title": "Дни недели",
+    "purpose": "Сегодня, завтра, вчера",
+    "source": "https://studyme.ai/mxazc/"
+  },
+  {
+    "id": 20,
+    "title": "Месяцы, даты и календарь",
+    "purpose": "Даты и порядковые числа",
+    "source": "https://studyme.ai/9nlsz/"
+  },
+  {
+    "id": 21,
+    "title": "Профессии и работа",
+    "purpose": "Работа",
+    "source": "https://studyme.ai/feuzi/"
+  },
+  {
+    "id": 22,
+    "title": "Основные действия",
+    "purpose": "Частотные глаголы",
+    "source": "https://studyme.ai/sy36n/"
+  },
+  {
+    "id": 23,
+    "title": "Вопросительная частица",
+    "purpose": "`ма/ме/ба/бе/па/пе`",
+    "source": "https://studyme.ai/izkhs/"
+  },
+  {
+    "id": 24,
+    "title": "Предмет действия",
+    "purpose": "Глагол + объект",
+    "source": "https://studyme.ai/ma95x/"
+  },
+  {
+    "id": 25,
+    "title": "Винительный + «с кем/чем»",
+    "purpose": "`-ды/-ді`, `-мен/-бен/-пен`",
+    "source": "https://studyme.ai/ad6lz/"
+  },
+  {
+    "id": 26,
+    "title": "Куда и откуда",
+    "purpose": "Закрепление движения",
+    "source": "https://studyme.ai/c9yat/"
+  },
+  {
+    "id": 27,
+    "title": "Вопросительные слова",
+    "purpose": "кто, что, где, когда, почему",
+    "source": "https://studyme.ai/sfd6r/"
+  },
+  {
+    "id": 28,
+    "title": "Отрицание",
+    "purpose": "не знаю, не хочу, не иду",
+    "source": "https://studyme.ai/brrft/"
+  },
+  {
+    "id": 29,
+    "title": "Принадлежность",
+    "purpose": "мой, твой, ваш",
+    "source": "https://studyme.ai/jccig/"
+  },
+  {
+    "id": 30,
+    "title": "Прошедшее время",
+    "purpose": "что делал",
+    "source": "https://studyme.ai/47q5j/"
+  },
+  {
+    "id": 31,
+    "title": "Будущее и планы",
+    "purpose": "что буду делать",
+    "source": "https://studyme.ai/8vem7/"
+  },
+  {
+    "id": 32,
+    "title": "Здоровье и аптека",
+    "purpose": "Самочувствие",
+    "source": "https://studyme.ai/fsybd/"
+  },
+  {
+    "id": 33,
+    "title": "Телефон и интернет",
+    "purpose": "Связь",
+    "source": "https://studyme.ai/6btqf/"
+  },
+  {
+    "id": 34,
+    "title": "Билеты и транспорт",
+    "purpose": "Автобус, поезд",
+    "source": "https://studyme.ai/jqvd4/"
+  },
+  {
+    "id": 35,
+    "title": "Гостиница",
+    "purpose": "Заселение",
+    "source": "https://studyme.ai/5dbm7/"
+  },
+  {
+    "id": 36,
+    "title": "Документы и услуги",
+    "purpose": "Исправленный модуль с `қолтаңба`",
+    "source": "https://studyme.ai/fxxrs/"
+  },
+  {
+    "id": 37,
+    "title": "Просьбы и вежливость",
+    "purpose": "помогите, покажите, повторите",
+    "source": "https://studyme.ai/u48de/"
+  },
+  {
+    "id": 38,
+    "title": "Сравнение и выбор",
+    "purpose": "дешевле, больше, лучше",
+    "source": "https://studyme.ai/9p33q/"
+  },
+  {
+    "id": 39,
+    "title": "Причины и связки",
+    "purpose": "и, но, потому что, поэтому",
+    "source": "https://studyme.ai/s7ycv/"
+  },
+  {
+    "id": 40,
+    "title": "Телефонный разговор",
+    "purpose": "Мини-диалог",
+    "source": "https://studyme.ai/wvq8f/"
+  },
+  {
+    "id": 41,
+    "title": "Договориться о встрече",
+    "purpose": "время и место",
+    "source": "https://studyme.ai/459qd/"
+  },
+  {
+    "id": 42,
+    "title": "Мой день",
+    "purpose": "Связный рассказ",
+    "source": "https://studyme.ai/2x2xf/"
+  },
+  {
+    "id": 43,
+    "title": "Поездка по городу",
+    "purpose": "Последовательность действий",
+    "source": "https://studyme.ai/tc8bd/"
+  },
+  {
+    "id": 44,
+    "title": "Заказ в кафе",
+    "purpose": "Комплексная ситуация",
+    "source": "https://studyme.ai/j394t/"
+  },
+  {
+    "id": 45,
+    "title": "Комплексный бытовой диалог",
+    "purpose": "Объединение тем",
+    "source": "https://studyme.ai/aue6g/"
+  },
+  {
+    "id": 46,
+    "title": "Общее повторение A1",
+    "purpose": "Подготовка к контролю",
+    "source": "https://studyme.ai/rv1d4/"
+  },
+  {
+    "id": 47,
+    "title": "Контроль A1: чтение",
+    "purpose": "Понимание текстов",
+    "source": "https://studyme.ai/y61x2/"
+  },
+  {
+    "id": 48,
+    "title": "Контроль A1: лексика и грамматика",
+    "purpose": "Проверка системы языка",
+    "source": "https://studyme.ai/xpkr6/"
+  },
+  {
+    "id": 49,
+    "title": "Контроль A1: ситуационные диалоги",
+    "purpose": "Коммуникативная адекватность",
+    "source": "https://studyme.ai/rhrkg/"
+  },
+  {
+    "id": 50,
+    "title": "Устная речь A1",
+    "purpose": "Самостоятельное проговаривание",
+    "source": "https://studyme.ai/q7fvn/"
+  }
+]

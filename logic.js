@@ -1,0 +1,3 @@
+export function normalizeAnswer(s){return String(s??'').normalize('NFC').toLocaleLowerCase('kk-KZ').replace(/[.,!?;:«»“”"']/g,'').replace(/\s+/g,' ').trim();}
+export function isCorrect(ex,value){if(value===undefined||value===null||value==='')return false;return ex.type==='input'?ex.answers.some(a=>normalizeAnswer(a)===normalizeAnswer(value)):+value===ex.answer;}
+export function completionState(s){const score=Number(s.score)>=80,heard=['A','B','C'].every(k=>s.heard?.[k]===true),oral=s.oral===true,listening=s.listeningCorrect===true;return {score,heard,oral,listening,ready:score&&heard&&oral&&listening};}
